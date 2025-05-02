@@ -136,27 +136,48 @@
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {University of Wisconsin Madison}{Sep. 2024 -- Present}
+      {University of Wisconsin Madison}{Sep 2024 -- Present}
       {Pursuing Bachelor of Computer Engineering}{Madison, Wisconsin}
+    \resumeSubheading
+      {Madison Area Technical College}{Sept 2022 -- Jul 2023}
+      {College-level coursework completed while in high school}{Madison, Wisconsin}
+    \resumeSubheading
+      {Verona Area High School}{Sept 2019 -- Jul 2024}
+      {High school degree}{Verona, Wisconsin}
   \resumeSubHeadingListEnd
 
-%------RELEVANT COURSEWORK-------
-\section{Relevant Coursework}
-    %\resumeSubHeadingListStart
-        \begin{multicols}{4}
-            \begin{itemize}[itemsep=-5pt, parsep=3pt]
-                \item\small Data Structures
-                \item Software Methodology
-                \item Algorithms Analysis
-                \item Database Management
-                \item Artificial Intelligence
-                \item Internet Technology
-                \item Systems Programming
-                \item Computer Architecture
-            \end{itemize}
-        \end{multicols}
-        \vspace*{2.0\multicolsep}
-    %\resumeSubHeadingListEnd
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Simulink, Python, C\#, Java, LC3 Assembly, C++, Verilog} \\
+     \textbf{Manufacturing}{: SLA, FDM, Laser cutting, Soldering} \\
+     \textbf{Development Tools}{: Git version control, VS Code, Kvaser, Unity} \\
+     \textbf{3D Design}{: Blender, Fusion} \\
+     \textbf{Concepts}{: Traction systems, PID controllers, CAN protocol} }}
+ \end{itemize}
+ \vspace{-16pt}
+
+
+%-----------PROJECTS-----------
+\section{Projects/Extracurricular}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Wisconsin Racing} $|$ \emph{Simulink, Python, Kvaser, PID, CAN, Traction Systems}}{Sept 2024 -- Present}
+          \resumeItemListStart
+            \resumeItem{Utilized data processing with python to tune engine cylinder phi based on data from a dyno to increase power by 13.2\%}
+            \resumeItem{Created a torque model based on data from a dyno using linear regression. This allows for an instant and accurate torque cut at any state, which is particularly useful for traction control systems, shifts so that there is momentarily reduced torque on the gearbox, and any other application that needs quick torque reduction. This was made in a python script, and found an equation for spark delay based on RPM, throttle position, and the desired torque reduction. It was then implemented into the ECU code with Simulink.}
+            \resumeItem{Implement a steering wheel that is based on the driver's needs - having shift lights to indicate the optimal time to shift, a simple but functional screen for driving with minimum distractions for maximum performance, and a lap timer that can also show estimated lap times and splits.}
+            \resumeItem{Programmed electric car ECU, using Simulink (inside of matlab) to create a program to control Wisconsin Racing's electric car. Safety systems such as an accumulator relay, a shutdown circuit, a ready to drive mode, and a dyno mode for testing all have to be considered. They also have to mesh with a torque control system that combines traction control, launch control, torque vectoring, the driver’s input, and more.}
+            \resumeItem{Managing the electric car CAN: forwarding signals across multiple CAN busses, optimizing for more data over less messages for more throughput, and generally cleaning up the database.}
+            \resumeItem{Implemented multiple stability control systems on a rear wheel drive electric car. Launch control and (Longitudinal) traction control using a mixed feedforward and feedback system. The feedforward provides a good estimated torque limit, and the feedback corrects for any changes in conditions. Implemented a simple torque vectoring system that is based on steering angle among other inputs}
+            \resumeItem{Advanced graph creation for validation of changes using python. This includes, but is not limited to BSFC before and after plots to show combustion engine efficiency improvements, and graphs to show improved oiling systems during high G cornering.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
 
 
 %-----------EXPERIENCE-----------
@@ -164,84 +185,37 @@
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {Electronics Company}{May 2020 -- August 2020}
-      {Software Engineer Intern}{City, State}
+      {UW Makerspace}{Sept 2024 -- Present}
+      {Technical Staff}{Verona, WI}
       \resumeItemListStart
-        \resumeItem{Developed a service to automatically perform a set of unit tests daily on a product in development in order to decrease time needed for team members to identify and fix bugs/issues.}
-        \resumeItem{Incorporated scripts using Python and PowerShell to aggregate XML test results into an organized format and to load the latest build code onto the hardware, so that daily testing can be performed.}
-        \resumeItem{Utilized Jenkins to provide a continuous integration service in order to automate the entire process of loading the latest build code and test files, running the tests, and generating a report of the results once per day.}
-        \resumeItem{Explored ways to visualize and send a daily report of test results to team members  using HTML, Javascript, and CSS.}
+        \resumeItem{Helping other students use the tools at the makerspace at UW Madison}
+        \resumeItem{Includes 3D printers, laser cutters, soldering, textiles, wood shop tools}
       \resumeItemListEnd
 
     \resumeSubheading
-      {Startup, Inc}{May 2019 -- August 2019}
-      {Front End Developer Intern}{City, State}
+      {4H Camp}{2022 -- Present}
+      {Counselor/Director/Staff}{Dane County, WI}
       \resumeItemListStart
-        \resumeItem{Assisted in development of the front end of a mobile application for iOS/Android using Dart and the Flutter framework.}
-        \resumeItem{Worked with Google Firebase to manage user inputted data across multiple platforms including web and mobile apps.}
-        \resumeItem{Collaborated with team members using version control systems such as Git to organize modifications and assign tasks.}
-        \resumeItem{Utilized Android Studio as a development environment in order to visualize the application in both iOS and Android.}
-    \resumeItemListEnd
+      \resumeItem{Keep a group of 7-10 middle school aged boys on time, having fun, and safe for 4 days as a councilor. Keep camp running smoothly by helping councilors and announcing important information as a camp director.}
+      \resumeItem{2 years of councilor, 1 year of camp director, currently in the first year of being staff}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Code Ninjas}{May 2023 -- Sept 2024}
+      {Sensei}{Middleton, WI}
+      \resumeItemListStart
+        \resumeItem{Teach 7-14 year olds how to solve programming  and logic problems.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Park Printing}{July 2020 -- Sept 2022}
+      {Production Associate}{Verona, WI}
+      \resumeItemListStart
+      \resumeItem{Operating printers and performing tasks.}
+      \resumeItemListEnd
     
   \resumeSubHeadingListEnd
 \vspace{-16pt}
-
-%-----------PROJECTS-----------
-\section{Projects}
-    \vspace{-5pt}
-    \resumeSubHeadingListStart
-      \resumeProjectHeading
-          {\textbf{Gym Reservation Bot} $|$ \emph{Python, Selenium, Google Cloud Console}}{January 2021}
-          \resumeItemListStart
-            \resumeItem{Developed an automatic bot using Python and Google Cloud Console to register myself for a timeslot at my school gym.}
-            \resumeItem{Implemented Selenium to create an instance of Chrome in order to interact with the correct elements of the web page.}
-            \resumeItem{Created a Linux virtual machine to run on Google Cloud so that the program is able to run everyday from the cloud.}
-            \resumeItem{Used Cron to schedule the program to execute automatically at 11 AM every morning so a reservation is made for me.}
-          \resumeItemListEnd
-          \vspace{-13pt}
-      \resumeProjectHeading
-          {\textbf{Ticket Price Calculator App} $|$ \emph{Java, Android Studio}}{November 2020}
-          \resumeItemListStart
-            \resumeItem{Created an Android application using Java and Android Studio to calculate ticket prices for trips to museums in NYC.}
-            \resumeItem{Processed user inputted information in the back-end of the app to return a subtotal price based on the tickets selected.}
-            \resumeItem{Utilized the layout editor to create a UI for the application in order to allow different scenes to interact with each other.}
-          \resumeItemListEnd 
-          \vspace{-13pt}
-          \resumeProjectHeading
-          {\textbf{Transaction Management GUI} $|$ \emph{Java, Eclipse, JavaFX}}{October 2020}
-          \resumeItemListStart
-            \resumeItem{Designed a sample banking transaction system using Java to simulate the common functions of using a bank account.}
-            \resumeItem{Used JavaFX to create a GUI that supports actions such as creating an account, deposit, withdraw, list all acounts, etc.}
-            \resumeItem{Implemented object-oriented programming practices such as inheritance to create different account types and databases.}
-          \resumeItemListEnd 
-    \resumeSubHeadingListEnd
-\vspace{-15pt}
-
-
-%
-%-----------PROGRAMMING SKILLS-----------
-\section{Technical Skills}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Languages}{: Python, Java, C, HTML/CSS, JavaScript, SQL} \\
-     \textbf{Developer Tools}{: VS Code, Eclipse, Google Cloud Platform, Android Studio} \\
-     \textbf{Technologies/Frameworks}{: Linux, Jenkins, GitHub, JUnit, WordPress} \\
-    }}
- \end{itemize}
- \vspace{-16pt}
-
-
-%-----------INVOLVEMENT---------------
-\section{Leadership / Extracurricular}
-    \resumeSubHeadingListStart
-        \resumeSubheading{Fraternity}{Spring 2020 -- Present}{President}{University Name}
-            \resumeItemListStart
-                \resumeItem{Achieved a 4 star fraternity ranking by the Office of Fraternity and Sorority Affairs (highest possible ranking).}
-                \resumeItem{Managed executive board of 5 members and ran weekly meetings to oversee progress in essential parts of the chapter.}
-                \resumeItem{Led chapter of 30+ members to work towards goals that improve and promote community service, academics, and unity.}
-            \resumeItemListEnd
-        
-    \resumeSubHeadingListEnd
 
 
 \end{document}
