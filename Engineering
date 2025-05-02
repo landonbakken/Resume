@@ -169,12 +169,13 @@
           {\textbf{Wisconsin Racing} $|$ \emph{Simulink, Python, Kvaser, PID, CAN, Traction Systems}}{Sept 2024 -- Present}
           \resumeItemListStart
             \resumeItem{Used Python to process dyno data and tune engine cylinder phi, resulting in a 13.2\% power increase.}
-            \resumeItem{Built a dyno-based torque model using linear regression with python to enable instant and precise torque cuts; implemented into ECU via Simulink for traction control, shift smoothness, and more. Found an equation that gave the spark delay based on the current RPM, throttle, and the target torque reduction.}
+            \resumeItem{Built a dyno-based torque model in Python using linear regression to derive spark delay from the current RPM, throttle position, and desired torque reduction. This allows for precise and immediate torque cuts for traction control, smoother shifting, and more.}
             \resumeItem{Developed a driver-focused steering wheel with shift lights, a distraction-free display, and a lap timer with real-time estimated lap times and splits.}
-            \resumeItem{Programmed ECU for an electric race car using Simulink, integrating safety features such as a shutdown circuit, a dyno mode, an accumulator relay. This was merged with a torque control system that combines traction systems, driver input, and safety systems.}
+            \resumeItem{Programmed ECU for the electric car using Simulink, adding in safety features such as a shutdown circuit, dyno mode, and accumulator relay. This was implemented along with a torque control system that combines traction systems, driver input, and safety systems.}
             \resumeItem{Managed multi-bus CAN communication by forwarding signals, and optimizing the database by reducing message count and increasing density.}
-            \resumeItem{Implemented launch and traction control using a hybrid feedforward/feedback system, plus simple torque vectoring based on steering angle and other factors.}
-            \resumeItem{Created advanced validation plots in Python, such as BSFC comparisons and oiling system performance during high-G cornering, to illustrate system improvements.}
+            \resumeItem{Implemented launch and traction control using a hybrid feedforward/feedback system, plus simple torque vectoring based on steering angle and other factors (rear wheel drive only)}
+            \resumeItem{Created validation plots in Python, such as BSFC comparisons and oiling system performance during high-G cornering, to prove changes had a positive effect.}
+            \resumeItem{Made an Assetto Corsa mod with an accurate version of our test track and a custom car using real-world setup values, providing a way for driver training to take place without needing a running car.}
           \resumeItemListEnd
           \vspace{-13pt}
     \resumeSubHeadingListEnd
