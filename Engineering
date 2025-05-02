@@ -145,6 +145,7 @@
       {Verona Area High School}{Sept 2019 -- Jul 2024}
       {High school degree}{Verona, Wisconsin}
   \resumeSubHeadingListEnd
+\vspace{-5pt}
 
 
 %-----------PROGRAMMING SKILLS-----------
@@ -157,7 +158,7 @@
      \textbf{3D Design}{: Blender, Fusion} \\
      \textbf{Concepts}{: Traction systems, PID controllers, CAN protocol} }}
  \end{itemize}
- \vspace{-16pt}
+ \vspace{-15pt}
 
 
 %-----------PROJECTS-----------
@@ -167,17 +168,17 @@
       \resumeProjectHeading
           {\textbf{Wisconsin Racing} $|$ \emph{Simulink, Python, Kvaser, PID, CAN, Traction Systems}}{Sept 2024 -- Present}
           \resumeItemListStart
-            \resumeItem{Utilized data processing with python to tune engine cylinder phi based on data from a dyno to increase power by 13.2\%}
-            \resumeItem{Created a torque model based on data from a dyno using linear regression. This allows for an instant and accurate torque cut at any state, which is particularly useful for traction control systems, shifts so that there is momentarily reduced torque on the gearbox, and any other application that needs quick torque reduction. This was made in a python script, and found an equation for spark delay based on RPM, throttle position, and the desired torque reduction. It was then implemented into the ECU code with Simulink.}
-            \resumeItem{Implement a steering wheel that is based on the driver's needs - having shift lights to indicate the optimal time to shift, a simple but functional screen for driving with minimum distractions for maximum performance, and a lap timer that can also show estimated lap times and splits.}
-            \resumeItem{Programmed electric car ECU, using Simulink (inside of matlab) to create a program to control Wisconsin Racing's electric car. Safety systems such as an accumulator relay, a shutdown circuit, a ready to drive mode, and a dyno mode for testing all have to be considered. They also have to mesh with a torque control system that combines traction control, launch control, torque vectoring, the driver’s input, and more.}
-            \resumeItem{Managing the electric car CAN: forwarding signals across multiple CAN busses, optimizing for more data over less messages for more throughput, and generally cleaning up the database.}
-            \resumeItem{Implemented multiple stability control systems on a rear wheel drive electric car. Launch control and (Longitudinal) traction control using a mixed feedforward and feedback system. The feedforward provides a good estimated torque limit, and the feedback corrects for any changes in conditions. Implemented a simple torque vectoring system that is based on steering angle among other inputs}
-            \resumeItem{Advanced graph creation for validation of changes using python. This includes, but is not limited to BSFC before and after plots to show combustion engine efficiency improvements, and graphs to show improved oiling systems during high G cornering.}
+            \resumeItem{Used Python to process dyno data and tune engine cylinder phi, resulting in a 13.2\% power increase.}
+            \resumeItem{Built a dyno-based torque model using linear regression with python to enable instant and precise torque cuts; implemented into ECU via Simulink for traction control, shift smoothness, and more. Found an equation that gave the spark delay based on the current RPM, throttle, and the target torque reduction.}
+            \resumeItem{Developed a driver-focused steering wheel with shift lights, a distraction-free display, and a lap timer with real-time estimated lap times and splits.}
+            \resumeItem{Programmed ECU for an electric race car using Simulink, integrating safety features such as a shutdown circuit, a dyno mode, an accumulator relay. This was merged with a torque control system that combines traction systems, driver input, and safety systems.}
+            \resumeItem{Managed multi-bus CAN communication by forwarding signals, and optimizing the database by reducing message count and increasing density.}
+            \resumeItem{Implemented launch and traction control using a hybrid feedforward/feedback system, plus simple torque vectoring based on steering angle and other factors.}
+            \resumeItem{Created advanced validation plots in Python, such as BSFC comparisons and oiling system performance during high-G cornering, to illustrate system improvements.}
           \resumeItemListEnd
           \vspace{-13pt}
     \resumeSubHeadingListEnd
-\vspace{-15pt}
+\vspace{0pt}
 
 
 %-----------EXPERIENCE-----------
@@ -188,7 +189,7 @@
       {UW Makerspace}{Sept 2024 -- Present}
       {Technical Staff}{Verona, WI}
       \resumeItemListStart
-        \resumeItem{Helping other students use the tools at the makerspace at UW Madison}
+        \resumeItem{Helping other students use the tools at the Makerspace at UW Madison}
         \resumeItem{Includes 3D printers, laser cutters, soldering, textiles, wood shop tools}
       \resumeItemListEnd
 
@@ -197,7 +198,7 @@
       {Counselor/Director/Staff}{Dane County, WI}
       \resumeItemListStart
       \resumeItem{Keep a group of 7-10 middle school aged boys on time, having fun, and safe for 4 days as a councilor. Keep camp running smoothly by helping councilors and announcing important information as a camp director.}
-      \resumeItem{2 years of councilor, 1 year of camp director, currently in the first year of being staff}
+      \resumeItem{2 years of councilor, 1 year of camp director, and currently in the first year of being staff}
       \resumeItemListEnd
 
     \resumeSubheading
