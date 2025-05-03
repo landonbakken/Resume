@@ -41,7 +41,7 @@
 \addtolength{\oddsidemargin}{-0.6in}
 \addtolength{\evensidemargin}{-0.5in}
 \addtolength{\textwidth}{1.19in}
-\addtolength{\topmargin}{-.7in}
+\addtolength{\topmargin}{-.8in}
 \addtolength{\textheight}{1.4in}
 
 \urlstyle{same}
@@ -63,12 +63,6 @@
 \newcommand{\resumeItem}[1]{
   \item\small{
     {#1 \vspace{-2pt}}
-  }
-}
-
-\newcommand{\classesList}[4]{
-    \item\small{
-        {#1 #2 #3 #4 \vspace{-2pt}}
   }
 }
 
@@ -131,51 +125,13 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {University of Wisconsin Madison}{Sep 2024 -- Present}
-      {Pursuing Bachelor of Computer Engineering}{Madison, Wisconsin}
+      {Bachelor’s in Computer Engineering, expected July 2028}{Madison, Wisconsin}
     \resumeSubheading
       {Madison Area Technical College}{Sept 2022 -- Jul 2023}
       {College-level coursework completed while in high school}{Madison, Wisconsin}
   \resumeSubHeadingListEnd
 \vspace{-8pt}
 
-
-%-----------PROGRAMMING SKILLS-----------
-\section{Technical Skills}
- \begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-     \textbf{Languages}{: Simulink, Python, C\#, Java, LC3 Assembly, C++, Verilog} \\
-     \textbf{Manufacturing}{: SLA, FDM, Laser cutting, Soldering} \\
-     \textbf{Development Tools}{: Git version control, VS Code, Kvaser, Unity} \\
-     \textbf{3D Design}{: Blender, Fusion} \\
-     \textbf{Concepts}{: Traction systems, PID controllers, CAN protocol} }}
- \end{itemize}
- \vspace{-15pt}
-
-
-%-----------PROJECTS-----------
-\section{Projects}
-    \vspace{-5pt}
-    \resumeSubHeadingListStart
-      \resumeProjectHeading
-          {\textbf{Machine Learning} $|$ \emph{Neural Networks, Gradient Decent, Python}}{Dec 2024 - Jan 2025}
-          \resumeItemListStart 
-            \resumeItem{Built a machine learning model and training system from scratch using gradient descent in Python, relying only on NumPy for optimization and GUI libraries for interface.}
-          \resumeItemListEnd
-          \vspace{-16pt}
-      \resumeProjectHeading
-          {\textbf{Multiplayer From Scratch} $|$ \emph{Networking, C\#, Unity, Documentation}}{Nov 2023 - Dec 2024}
-          \resumeItemListStart
-            \resumeItem{Developed a low-latency, peer-to-peer multiplayer system for Unity using UDP, TCP, and HTTP protocols, with comprehensive documentation for users without networking experience.}
-          \resumeItemListEnd
-          \vspace{-16pt}
-      \resumeProjectHeading
-          {\textbf{3D Engine on a Calculator} $|$ \emph{Low level programming, Extreme Optimization}}{Oct 2021 - May 2023}
-          \resumeItemListStart
-            \resumeItem{Created a 3D game engine on a TI-84+ CE using raycasting, the rendering technique used in early DOOM games.}
-          \resumeItemListEnd
-          \vspace{-16pt}
-    \resumeSubHeadingListEnd
-\vspace{0pt} 
 
 %saab 93 2004-6
 %-----------EXPERIENCE-----------
@@ -186,21 +142,21 @@
       {Wisconsin Racing FSAE}{Sept 2024 -- Present}
       {Control subteam member}{Madison, WI}
       \resumeItemListStart
-        \resumeItem{Used Python to process dyno data and tune engine cylinder phi, resulting in a 13.2\% power increase.}
-        \resumeItem{Built a dyno-based torque model in Python using linear regression to derive spark delay from the current RPM, throttle position, and desired torque reduction. This allows for precise and immediate torque cuts for traction control, smoother shifting, and more.}
-        \resumeItem{Developed a driver-focused steering wheel with shift lights, a distraction-free display, and a lap timer with real-time estimated lap times and splits.}
-        \resumeItem{Programmed ECU for the electric car using Simulink, adding in safety features such as a shutdown circuit, dyno mode, and accumulator relay. This was implemented along with a torque control system that combines traction systems, driver input, and safety systems.}
-        \resumeItem{Managed multi-bus CAN communication by forwarding signals, and optimizing the database by reducing message count and increasing density.}
-        \resumeItem{Implemented launch and traction control using a hybrid feedforward/feedback system, plus simple torque vectoring based on steering angle and other factors (rear wheel drive only)}
-        \resumeItem{Created validation plots in Python, such as BSFC comparisons and oiling system performance during high-G cornering, to prove changes had a positive effect.}
-        \resumeItem{Made an Assetto Corsa mod with an accurate version of our test track and a custom car using real-world setup values, providing a way for driver training to take place without needing a running car.}
+        \resumeItem{Used Python to process dyno data and tune engine cylinder phi, resulting in a 13.2\% power increase}
+        \resumeItem{Built a dyno-based torque model in Python using linear regression to derive spark delay from the current RPM, throttle position, and desired torque reduction. This allows for precise and immediate torque cuts for traction control, faster and more accurate pneumatic shifting, and a more responsive throttle}
+        \resumeItem{Developed a driver-focused steering wheel with shift lights, a distraction-free display, and a lap timer with real-time estimated lap times and splits}
+        \resumeItem{Programmed ECU for the electric car using Simulink, adding in safety features such as a shutdown circuit, dyno mode, and accumulator relay. This was implemented along with a torque control system that combines traction systems, driver input, and safety systems}
+        \resumeItem{Managed multi-bus CAN communication by forwarding signals and optimizing the database by reducing message count and increasing density}
+        \resumeItem{Implemented launch and traction control using a hybrid feed-forward/feedback system, plus simple torque vectoring based on steering angle and other factors (rear wheel drive only)}
+        \resumeItem{Created validation plots in Python, such as BSFC comparisons and oiling system performance during high-G cornering, to prove changes had a positive effect}
+        \resumeItem{Made an Assetto Corsa mod with an accurate version of our test track and a custom car using real-world setup values, providing a way for driver training to take place without needing a running car}
       \resumeItemListEnd
 
     \resumeSubheading
       {UW Makerspace}{Sept 2024 -- Present}
       {Technical Staff}{Verona, WI}
       \resumeItemListStart
-        \resumeItem{Helping other students use the tools at the Makerspace at UW Madison}
+        \resumeItem{Assist students with operating tools and equipment at the UW Madison Makerspace}
         \resumeItem{Includes 3D printers, laser cutters, soldering, textiles, wood shop tools}
       \resumeItemListEnd
 
@@ -208,17 +164,54 @@
       {Dane County 4H Camp}{2022 -- Present}
       {Counselor/Director/Staff}{Dane County, WI}
       \resumeItemListStart
-      \resumeItem{Keept a group of 7-10 middle school aged boys on time, having fun, and safe for 4 days as a councilor. Helped other councilors and announced important information as a camp director.}
+      \resumeItem{Kept a group of 7-10 middle-school-aged boys on time, having fun, and safe for 4 days as a counselor. Helped other counselors and announced important information as a camp director.}
       \resumeItemListEnd
     
     \resumeSubheading
       {Paoli Fireballs 4H Club}{2011 -- 2024}
-      {Presedent/Secratary/Member}{Paoli, WI}
+      {President/Secretary/Member}{Paoli, WI}
       \resumeItemListStart
       \resumeItem{Led meetings, organized events, and supported youth through education, leadership development, and community service.}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
-\vspace{-16pt}
+\vspace{-15pt}
 
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Machine Learning} $|$ \emph{Neural Networks, Gradient Descent, Python}}{Dec 2024 -- Jan 2025}
+          \resumeItemListStart 
+            \resumeItem{Built a machine learning model and training system from scratch using gradient descent in Python, relying only on NumPy for optimization and GUI libraries for interface.}
+          \resumeItemListEnd
+          \vspace{-16pt}
+      \resumeProjectHeading
+          {\textbf{Multiplayer From Scratch} $|$ \emph{Networking, C\#, Unity, Documentation}}{Nov 2023 -- Dec 2024}
+          \resumeItemListStart
+            \resumeItem{Developed a low-latency, peer-to-peer multiplayer system for Unity using UDP, TCP, and HTTP protocols, with comprehensive documentation for users without networking experience.}
+          \resumeItemListEnd
+          \vspace{-16pt}
+      \resumeProjectHeading
+          {\textbf{3D Engine on a Calculator} $|$ \emph{Low-level programming, Extreme Optimization}}{Oct 2021 -- May 2023}
+          \resumeItemListStart
+            \resumeItem{Created a 3D game engine on a TI-84+ CE using raycasting, the rendering technique used in early DOOM games.}
+          \resumeItemListEnd
+          \vspace{-16pt}
+    \resumeSubHeadingListEnd
+\vspace{5pt} 
+
+
+%----------- SKILLS -----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Computer Languages}{: Simulink, Python, C\#, Java, LC-3 Assembly, C++, Verilog} \\
+     \textbf{Manufacturing}{: SLA, FDM, Laser cutting, Soldering} \\
+     \textbf{Development Tools}{: Git, VS Code, Kvaser, Unity} \\
+     \textbf{3D Design}{: Blender, Fusion} \\
+     \textbf{Concepts}{: Traction systems, PID controllers, CAN protocol} }}
+ \end{itemize}
+ \vspace{-16pt} 
 
 \end{document}
