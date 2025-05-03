@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.2)  3 MAY 2025 15:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.5.2)  3 MAY 2025 15:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -362,45 +362,45 @@ Package hyperref Info: Link coloring OFF on input line 105.
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 116.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 117.
  (C:\Program Files\MiKTeX\tex/latex/fontawesome5\ufontawesomefree2.fd)
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 116.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 118.
  (C:\Program Files\MiKTeX\tex/latex/fontawesome5\ufontawesomefree1.fd)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 116.
+(Font)              <7> on input line 118.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 116.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 116.
+(Font)              <5> on input line 118.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 118.
  (C:\Program Files\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on input line 117.
+LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on input line 119.
  (C:\Program Files\MiKTeX\tex/latex/fontawesome5\ufontawesomebrands0.fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10> not available
-(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 117.
+(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 119.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 124.
+(Font)              using `OT1/cmr/bx/n' instead on input line 126.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 128.
+(Font)              <10.95> on input line 130.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 128.
+(Font)              <8> on input line 130.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 128.
+(Font)              <6> on input line 130.
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 184--186
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 186--188
 []  
  []
 
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 190--192
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 192--194
 []  
  []
 
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 196--198
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 198--200
 []  
  []
 
@@ -434,7 +434,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  75i,11n,79p,403b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb><C:/Program Files/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (1 page, 129071 bytes).
+Output written on main.pdf (1 page, 129209 bytes).
 PDF statistics:
  82 PDF objects out of 1000 (max. 8388607)
  6 named destinations out of 1000 (max. 500000)
