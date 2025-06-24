@@ -151,7 +151,7 @@
         \resumeItem{Used Python to process dyno data and tune engine cylinder phi (air to fuel ratio), resulting in a 13.2\% power increase}
         \resumeItem{Built a dyno-based torque model in Python using linear regression to derive spark delay from the current RPM, throttle position, and desired torque reduction. This allows for precise and immediate torque cuts for traction control, faster and more accurate pneumatic shifting, and a more responsive throttle}
         \resumeItem{Developed a driver-focused steering wheel with shift lights, a distraction-free display, and a lap timer with real-time estimated lap times and splits}
-        \resumeItem{Created validation plots in Python, such as BSFC comparisons and oiling system performance during high-G cornering, to prove changes had a positive effect}
+        \resumeItem{Created validation plots in Python, such as BSFC comparisons and oiling system performance during high-G cornering to prove changes had a positive effect}
         \resumeItem{Created virual track to allow for driver training to take place without the need for a physical car}
       \resumeItemListEnd
       
@@ -159,13 +159,14 @@
         {Electric Car}
       
       \resumeItemListStart
-        \resumeItem{Developed custom simulink code for the ECU}
-        \resumeItem{Adding in safety features such as a shutdown circuit, dyno mode, and accumulator relay}
-        \resumeItem{Developed a flexable torque control system that combines, driver input, control, and safety systems}
+        \resumeItem{Developed and refactored custom simulink code for the ECU}
+        \resumeItem{Created system to import data from testing to debug, tune, and develop systems without the need for a physical car, allowing for faster development and testing of control systems and safety features}
+        \resumeItem{Added safety features such as a shutdown circuit, dyno mode, and accumulator relay}
+        \resumeItem{Developed flexable torque control system that combines, driver input, control, and safety systems}
         \resumeItem{Implemented and tuned traction control with load transfer based feedforward and a slip error based feedback PI controller}
-        \resumeItem{Helped create driver focused torque vectoring with speed and steering angle inputs, and is well integrated with traction control by enforcing torque split}
-        \resumeItem{Managed multi-bus CAN communication by forwarding signals and optimizing the database by reducing message count and increasing density}
-        \resumeItem{Added a indication for the driver based on charge left and distance left on steering wheel to reduce distractions}
+        \resumeItem{Helped create driver focused torque vectoring with speed and steering angle inputs that is well integrated with traction control by enforcing torque split}
+        \resumeItem{Managed multi-bus CAN communication by forwarding signals and optimizing the database by reducing message count and increasing density, along with creating python scripts to automate updating DBCs for multiple systems}
+        \resumeItem{Added indication for the driver based on charge left and distance left on steering wheel to reduce distractions}
       \resumeItemListEnd
 
     \resumeSubheading
@@ -212,8 +213,7 @@
      \textbf{Computer Languages:}{ Simulink, Python, C\#, Java, Javascript, C++, Verilog, CSS/HTML} \\
      \textbf{Manufacturing:}{ SLA, FDM, Laser cutting, Soldering} \\
      \textbf{Development Tools:}{ Git, VS Code, Kvaser, Unity} \\
-     \textbf{Hardware:}{ Arduino, Raspberry Pi, Bosch C70, Labjack} \\
-     \textbf{3D Design:}{ Blender, Fusion} \\
+     \textbf{3D Design:}{ Blender, Fusion, Solidworks} \\
      \textbf{Concepts:}{ Traction systems, PID controllers, CAN protocol} }}
  \end{itemize}
  \vspace{-16pt} 
