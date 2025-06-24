@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1749453298.93433 "c:/Users/landonbakken/Documents/GitHub/Resume/main.tex" "main.pdf" "main" 1749453299.64433 0
+["pdflatex"] 1750741816.68602 "c:/Users/landonbakken/Documents/GitHub/Resume/main.tex" "main.pdf" "main" 1750741817.45707 0
   "C:/Program Files/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1651500229 2920 d63721872b8c77041b88e51b8f7c291d ""
   "C:/Program Files/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1651500229 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
   "C:/Program Files/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free2.enc" 1651500229 2906 e48aa7c95dea478a2e011bcb4f7878c9 ""
@@ -101,10 +101,10 @@
   "C:/Program Files/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/landonbakken/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1746192131 82039 32c00b46ec68f3ddea0147d75839907f ""
   "C:/Users/landonbakken/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1746192141 13138166 c2350de17ccc860faa3c483b275197c4 ""
-  "c:/Users/landonbakken/Documents/GitHub/Resume/main.tex" 1749453298 9245 c3ba8df09b0642525db8b110309bd03a ""
-  "main.aux" 1749453299 711 d776b8cadf0903cda9f4356d8076bd81 "pdflatex"
-  "main.out" 1749453299 390 8178769a591dae54593be5dc5893bd68 "pdflatex"
-  "main.tex" 1749453298 9245 c3ba8df09b0642525db8b110309bd03a ""
+  "c:/Users/landonbakken/Documents/GitHub/Resume/main.tex" 1750741816 9113 273c36396c7269ccb42e0c7a73ba589f ""
+  "main.aux" 1750741817 720 d781b219e20d6428d0742f1d748bd074 "pdflatex"
+  "main.out" 1750741817 438 58f5f4ecf65d3a3f1195aa6f2c1b7497 "pdflatex"
+  "main.tex" 1750741816 9113 273c36396c7269ccb42e0c7a73ba589f ""
   (generated)
   "main.aux"
   "main.log"

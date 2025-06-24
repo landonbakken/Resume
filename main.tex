@@ -74,11 +74,12 @@
     \end{tabular*}\vspace{-7pt}
 }
 
-\newcommand{\resumeSubSubheading}[2]{
+\newcommand{\resumeSubLabel}[1]{
+  \vspace{-15pt}
     \item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textit{\small#1} & \textit{\small #2} \\
-    \end{tabular*}\vspace{-7pt}
+      {\hspace{5pt} \small#1 \vspace{-15pt}} \\
+    \end{tabular*}
 }
 
 \newcommand{\resumeProjectHeading}[2]{
@@ -116,7 +117,7 @@
   \small 
   \raisebox{-0.1\height}{\faPhone}~608-669-5235 ~ 
   \href{mailto:landon.bakken@gmail.com}{\raisebox{-0.2\height}{\faEnvelope}~\underline{landon.bakken@gmail.com}} ~ 
-  \href{https://linkedin.com/in/landonbakken}{\raisebox{-0.2\height}{\faLinkedin}~\underline{linkedin.com/in/landonbakken}} ~ 
+  \href{https://linkedin.com/in/landon-bakken}{\raisebox{-0.2\height}{\faLinkedin}~\underline{linkedin.com/in/landon-bakken}} ~ 
   \href{https://github.com/landonbakken}{\raisebox{-0.2\height}{\faGithub}~\underline{github.com/landonbakken}} \\
   \vspace{-8pt}
 \end{center}
@@ -138,48 +139,48 @@
 %saab 93 2004-6
 %-----------EXPERIENCE-----------
 \section{Experience}
-  \resumeSubHeadingListStart
-
+  \resumeSubHeadingListStart      
     \resumeSubheading
-      {Wisconsin Racing FSAE}{Sept 2024 -- Present}
+      {UW Wisconsin-Madison Formula SAE}{Sept 2024 -- Present}
       {Control subteam member}{Madison, WI}
+      
+      \resumeSubLabel
+        {Combustion Car}
+      
       \resumeItemListStart
         \resumeItem{Used Python to process dyno data and tune engine cylinder phi (air to fuel ratio), resulting in a 13.2\% power increase}
         \resumeItem{Built a dyno-based torque model in Python using linear regression to derive spark delay from the current RPM, throttle position, and desired torque reduction. This allows for precise and immediate torque cuts for traction control, faster and more accurate pneumatic shifting, and a more responsive throttle}
         \resumeItem{Developed a driver-focused steering wheel with shift lights, a distraction-free display, and a lap timer with real-time estimated lap times and splits}
-        \resumeItem{Programmed ECU for the electric car using Simulink, adding in safety features such as a shutdown circuit, dyno mode, and accumulator relay. This was implemented along with a torque control system that combines traction systems, driver input, and safety systems}
-        \resumeItem{Managed multi-bus CAN communication by forwarding signals and optimizing the database by reducing message count and increasing density}
-        \resumeItem{Developed and implemented launch and traction control using a hybrid feed-forward/feedback system based on load transfer, plus simple torque vectoring based on steering angle and other factors (rear wheel drive only)}
         \resumeItem{Created validation plots in Python, such as BSFC comparisons and oiling system performance during high-G cornering, to prove changes had a positive effect}
-        \resumeItem{Made an Assetto Corsa mod with an accurate version of our test track and a custom car using real-world setup values, providing a way for driver training to take place without needing a running car}
+        \resumeItem{Created virual track to allow for driver training to take place without the need for a physical car}
+      \resumeItemListEnd
+      
+      \resumeSubLabel
+        {Electric Car}
+      
+      \resumeItemListStart
+        \resumeItem{Developed custom simulink code for the ECU}
+        \resumeItem{Adding in safety features such as a shutdown circuit, dyno mode, and accumulator relay}
+        \resumeItem{Developed a flexable torque control system that combines, driver input, control, and safety systems}
+        \resumeItem{Implemented and tuned traction control with load transfer based feedforward and a slip error based feedback PI controller}
+        \resumeItem{Helped create driver focused torque vectoring with speed and steering angle inputs, and is well integrated with traction control by enforcing torque split}
+        \resumeItem{Managed multi-bus CAN communication by forwarding signals and optimizing the database by reducing message count and increasing density}
+        \resumeItem{Added a indication for the driver based on charge left and distance left on steering wheel to reduce distractions}
       \resumeItemListEnd
 
     \resumeSubheading
       {UW Makerspace}{Sept 2024 -- Present}
-      {Technical Staff}{Verona, WI}
+      {Technical Staff}{Madison, WI}
       \resumeItemListStart
         \resumeItem{Assist students with operating tools and equipment at the UW Madison Makerspace}
-        \resumeItem{Tools include 3D printers, laser cutters, soldering equipment, textile tools, and woodworking tools}
-      \resumeItemListEnd
-
-    \resumeSubheading
-      {Dane County 4H Camp}{2022 -- Present}
-      {Counselor/Director/Staff}{Dane County, WI}
-      \resumeItemListStart
-      \resumeItem{Supervised 7–10 middle school boys over a 4-day camp, ensuring safety, engagement, and fun. As camp director, supported counselors, made announcements, and acted as liaison between staff and counselors}
-      \resumeItemListEnd
-    
-    \resumeSubheading
-      {Paoli Fireballs 4H Club}{2011 -- 2024}
-      {President/Secretary/Member}{Paoli, WI}
-      \resumeItemListStart
-      \resumeItem{Led meetings, organized events, and supported youth through education, leadership development, and community service}
+        \resumeItem{Tools include 3D printers, laser cutters, soldering equipment, textile tools, waterjet for metal, CNC for wood, other woodworking tools, and other general use items}
+        \resumeItem{Trained students on how to safely use composits room for carbon fiber work}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
 \vspace{-15pt}
 
 %-----------PROJECTS-----------
-\section{Projects}
+\section{Personal Projects}
     \vspace{-5pt}
     \resumeSubHeadingListStart
       \resumeProjectHeading
@@ -189,7 +190,7 @@
           \resumeItemListEnd
           \vspace{-16pt}
       \resumeProjectHeading
-          {\textbf{Multiplayer From Scratch} $|$ \emph{Networking, C\#, Unity, Documentation}}{Nov 2023 -- Dec 2024}
+          {\textbf{Multiplayer Networking} $|$ \emph{Networking, C\#, Unity, Documentation}}{Nov 2023 -- Dec 2024}
           \resumeItemListStart
             \resumeItem{Developed a low-latency, peer-to-peer multiplayer system for Unity using UDP, TCP, and HTTP protocols, with comprehensive documentation for users without networking experience}
           \resumeItemListEnd
@@ -208,11 +209,12 @@
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Computer Languages}{: Simulink, Python, C\#, Java, LC-3 Assembly, C++, Verilog} \\
-     \textbf{Manufacturing}{: SLA, FDM, Laser cutting, Soldering} \\
-     \textbf{Development Tools}{: Git, VS Code, Kvaser, Unity} \\
-     \textbf{3D Design}{: Blender, Fusion} \\
-     \textbf{Concepts}{: Traction systems, PID controllers, CAN protocol} }}
+     \textbf{Computer Languages:}{ Simulink, Python, C\#, Java, Javascript, C++, Verilog, CSS/HTML} \\
+     \textbf{Manufacturing:}{ SLA, FDM, Laser cutting, Soldering} \\
+     \textbf{Development Tools:}{ Git, VS Code, Kvaser, Unity} \\
+     \textbf{Hardware:}{ Arduino, Raspberry Pi, Bosch C70, Labjack} \\
+     \textbf{3D Design:}{ Blender, Fusion} \\
+     \textbf{Concepts:}{ Traction systems, PID controllers, CAN protocol} }}
  \end{itemize}
  \vspace{-16pt} 
 
