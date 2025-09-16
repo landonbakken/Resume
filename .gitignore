@@ -18,3 +18,4 @@
 *.gz
 *.fdb_latexmk
 *.log
+*.fls
