@@ -113,7 +113,7 @@
 
 \begin{center}
   {\Huge \scshape Landon Bakken} \\ \vspace{1pt}
-  10703 Mid Town Rd, Verona, WI 53593 \\ \vspace{1pt}
+  26N Orchard St, Madison, WI 53715 \\ \vspace{1pt}
   \small 
   \raisebox{-0.1\height}{\faPhone}~608-669-5235 ~ 
   \href{mailto:landon.bakken@gmail.com}{\raisebox{-0.2\height}{\faEnvelope}~\underline{landon.bakken@gmail.com}} ~ 
@@ -142,31 +142,37 @@
   \resumeSubHeadingListStart      
     \resumeSubheading
       {UW Wisconsin-Madison Formula SAE}{Sept 2024 -- Present}
-      {Control subteam member}{Madison, WI}
+      {Controls Lead}{Madison, WI}
+
+      \resumeSubLabel
+        {Notables}
+
+      \resumeItemListStart
+      \resumeItem{1st place in Design, 2nd place AutoCross @ 2025 Michigan Electric}
+        \resumeItem{2025 Multimatic Vehicle Dynamics Award @ 2025 Michigan Electric}
+        \resumeItem{3st place in Efficiency and Design @ 2025 Michigan Combustion}
+      \resumeItemListEnd
       
       \resumeSubLabel
         {Combustion Car}
       
       \resumeItemListStart
-        \resumeItem{Used Python to process dyno data and tune engine cylinder phi (air to fuel ratio), resulting in a 13.2\% power increase}
-        \resumeItem{Built a dyno-based torque model in Python using linear regression to derive spark delay from the current RPM, throttle position, and desired torque reduction. This allows for precise and immediate torque cuts for traction control, faster and more accurate pneumatic shifting, and a more responsive throttle}
-        \resumeItem{Developed a driver-focused steering wheel with shift lights, a distraction-free display, and a lap timer with real-time estimated lap times and splits}
-        \resumeItem{Created validation plots in Python, such as BSFC comparisons and oiling system performance during high-G cornering to prove changes had a positive effect}
-        \resumeItem{Created virual track to allow for driver training to take place without the need for a physical car}
+        \resumeItem{Developed systems to tune engine cylinder phi (air to fuel ratio), resulting in a 13.2\% power increase}
+        \resumeItem{Made torque model to derive spark delay from the current RPM, throttle position, and desired torque reduction. Allows for precise and immediate torque cuts for traction control, faster pneumatic shifting, and faster throttle response}
+        \resumeItem{Developed a driver-focused steering wheel with shift lights, distraction-free display, and lap timer with real-time estimated lap times and splits}
       \resumeItemListEnd
       
       \resumeSubLabel
         {Electric Car}
       
       \resumeItemListStart
-        \resumeItem{Developed code for the ECU}
-        \resumeItem{Created system to import data from testing to debug, tune, and develop systems without the need for a physical car, allowing for faster development and testing of control systems and safety features}
+        \resumeItem{Developed code for the ECU, emphasising a modular system to simplify simulation}
+        \resumeItem{Developed software in loop simulation to develop, tune, and validate traction control and torque vectoring}
         \resumeItem{Added safety features such as a shutdown circuit, dyno mode, and accumulator relay}
-        \resumeItem{Developed flexable torque control system that combines, driver input, control, and safety systems}
+        \resumeItem{Developed flexable torque control system that combines driver input, control, and safety systems}
         \resumeItem{Implemented and tuned traction control with load transfer based feedforward and a slip error based PI controller}
-        \resumeItem{Helped create driver focused torque vectoring with speed and steering angle inputs that is well integrated with traction control by enforcing torque split}
-        \resumeItem{Managed multi-bus CAN communication by forwarding signals and optimizing the database by reducing message count and increasing density, along with creating python scripts to automate updating DBCs for multiple systems}
-        \resumeItem{Added indication for the driver based on charge left and distance left on steering wheel to reduce distractions}
+        \resumeItem{Developed driver focused torque vectoring with speed and steering angle inputs that is well integrated with traction control by enforcing torque split}
+        \resumeItem{Managed multi-bus CAN communication by forwarding signals and optimizing the database}
       \resumeItemListEnd
 
     \resumeSubheading
@@ -210,11 +216,11 @@
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Computer Languages:}{ Simulink, Python, C\#, Java, Javascript, C++, Verilog, CSS/HTML} \\
+     \textbf{Computer Languages:}{ Python, Simulink, C\#, Java, C++, Javascript, Verilog, CSS/HTML} \\
      \textbf{Manufacturing:}{ SLA, FDM, Laser cutting, Soldering} \\
      \textbf{Development Tools:}{ Git, VS Code, Kvaser, Unity} \\
      \textbf{3D Design:}{ Blender, Fusion, Solidworks} \\
-     \textbf{Concepts:}{ Traction systems, PID controllers, CAN protocol} }}
+     \textbf{Concepts:}{ Traction systems, PID controllers, CAN protocol, Signal iltering} }}
  \end{itemize}
  \vspace{-16pt} 
 
